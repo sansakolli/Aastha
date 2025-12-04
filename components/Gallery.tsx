@@ -9,29 +9,29 @@ export const Gallery: React.FC = () => {
 
   const images = [
     {
-      url: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1000",
+      url: "/gallery-1.jpg",
       className: "md:col-span-2 md:row-span-2",
-      alt: "Spacious Study Area"
+      alt: "Aastha Study Hall - Spacious Study Area"
     },
     {
-      url: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&q=80&w=800",
+      url: "/gallery-2.jpg",
       className: "md:col-span-1 md:row-span-1",
-      alt: "Books & Resources"
+      alt: "Aastha Study Hall - Study Environment"
     },
     {
-      url: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=800",
+      url: "/gallery-3.jpg",
       className: "md:col-span-1 md:row-span-1",
-      alt: "Cafeteria"
+      alt: "Aastha Study Hall - Workspace"
     },
     {
-      url: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800",
+      url: "/gallery-4.jpg",
       className: "md:col-span-1 md:row-span-1",
-      alt: "Quiet Focus"
+      alt: "Aastha Study Hall - Focused Learning"
     },
     {
-      url: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1000",
+      url: "/gallery-5.png",
       className: "md:col-span-2 md:row-span-1",
-      alt: "Discussion Room"
+      alt: "Aastha Study Hall - Study Facilities"
     }
   ];
 

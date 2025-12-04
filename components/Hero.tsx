@@ -18,9 +18,10 @@ export const Hero: React.FC = () => {
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2301&ixlib=rb-4.0.3"
-          alt="Modern Co-working and Study Space Interior"
+          src="/hero-aastha-study-hall.png"
+          alt="Aastha Study Hall students working in focused cubicles"
           className="w-full h-full object-cover"
+          loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/40 md:to-transparent"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
