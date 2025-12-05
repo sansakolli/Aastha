@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Star, Globe } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 
 export const Navbar: React.FC = () => {
@@ -69,9 +69,12 @@ export const Navbar: React.FC = () => {
             className="flex items-center group cursor-pointer select-none" 
             onClick={(e) => scrollToSection(e, 'home')}
           >
-            <div className="relative">
-              <Star className="h-8 w-8 text-teal-600 fill-current" />
-              <div className="absolute inset-0 bg-teal-600 blur-lg opacity-20 group-hover:opacity-40 transition-opacity"></div>
+            <div className="relative h-10 w-10">
+              <img
+                src="/logo.png"
+                alt="Aastha Study Center logo"
+                className="h-10 w-10 object-contain drop-shadow"
+              />
             </div>
             <div className="ml-3">
               <h1 className="text-2xl font-bold text-gray-900 tracking-wider">AASTHA</h1>

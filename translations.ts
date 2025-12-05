@@ -49,12 +49,12 @@ export const translations = {
       get_directions: "Get Directions",
       dwaraka: {
         name: "Dwaraka Nagar",
-        tag: "HEAD OFFICE",
+        tag: "NEW BRANCH",
         address: "Plot No. 48-3-6, Gowtami Complex, Dwaraka Nagar, Visakhapatnam - 530016"
       },
       mvp: {
         name: "MVP Colony",
-        tag: "POPULAR",
+        tag: "HEAD OFFICE",
         address: "Located in the heart of MVP Colony. Ideal for university students and remote employees."
       }
     },
@@ -143,12 +143,12 @@ export const translations = {
       get_directions: "మ్యాప్ లో చూడండి",
       dwaraka: {
         name: "ద్వారకా నగర్",
-        tag: "హెడ్ ఆఫీస్",
+        tag: "న్యూ బ్రాంచ్",
         address: "ప్లాట్ నెం. 48-3-6, గౌతమి కాంప్లెక్స్, ద్వారకా నగర్, విశాఖపట్నం - 530016"
       },
       mvp: {
         name: "MVP కాలనీ",
-        tag: "పాపులర్",
+        tag: "హెడ్ ఆఫీస్",
         address: "MVP కాలనీ మెయిన్ సెంటర్ లో, వర్క్ ఫ్రమ్ హోమ్ ఉద్యోగులకు మరియు విద్యార్థులకు అనువైనది."
       }
     },
